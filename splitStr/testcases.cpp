@@ -10,7 +10,6 @@ int main() {
 	std::vector<std::string> test;
 	splitStr(test, "test1<>Test 2<>test_ 3", "<>");
 	print(test);
-	test.clear();
 	splitStr(test, "test 4!,Test 5?,'TeST _6_'", ",");
 	print(test);
 }
